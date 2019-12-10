@@ -5,5 +5,6 @@ def reverse_each_word(sentence)
   words.each{|word| 
     reverse_sentence += word.reverse
   }
+  puts reverse_sentence
   
 end
