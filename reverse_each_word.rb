@@ -5,6 +5,6 @@ def reverse_each_word(sentence)
  pp words.each{|word|
   word.reverse
    # reverse_sentence += word.reverse
-  }
+  }.join(" ")
   reverse_sentence.join(" ")
 end
